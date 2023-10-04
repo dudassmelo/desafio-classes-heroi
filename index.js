@@ -17,7 +17,7 @@ class heroi {
         } else if (this.tipo === "ninja") {
             ataque = "shuriken";
         }
-        console.log(`O herói ${this.nome} atacou usando ${ataque}`);
+        console.log(`O ${this.tipo} atacou usando ${ataque}`);
 
 }}
 
